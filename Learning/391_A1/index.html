@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <title>Tasnimul Hasan Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <button id="toggleMode" class="toggle-btn">Dark</button>
+
+    <header class="navbar">
+      <h2 class="logo">Tasnimul Hasan</h2>
+
+      <nav>
+        <a href="#home">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#anime">Anime</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-img">
+        <img src="./Images/Samin.png" alt="Profile" />
+      </div>
+
+      <div class="hero-text">
+        <p>Hello, I'm</p>
+        <h1>Tasnimul Hasan</h1>
+        <h3>Software & Web Developer</h3>
+
+        <div class="hero-buttons">
+          <a
+            href="./Images/Tasnimul_Hasan_Resume.pdf"
+            download
+            class="btn-outline"
+            >Download CV</a
+          >
+          <a href="#contact" class="btn-filled">Contact Info</a>
+        </div>
+
+        <div class="social">
+          <a
+            href="https://www.linkedin.com/in/tasnimul-hasan10/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Tasnimul10" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/tasnimul.hasan.2001.10"
+            target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/__tasnimul__samin__/"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="quote">
+      <h2>Favorite Quote About Life</h2>
+      <blockquote class="life-quote">
+        “Life is not about waiting for the storm to pass, but learning to dance
+        in the rain.”
+      </blockquote>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <p class="section-desc">
+        I focus on building scalable web applications and improving my knowledge
+        in modern technologies.
+      </p>
+
+      <div class="skill-grid">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h4>HTML</h4>
+          <p>Semantic markup and accessibility.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h4>CSS</h4>
+          <p>Responsive design and animations.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h4>JavaScript</h4>
+          <p>ES6+, DOM, async programming.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-node-js"></i>
+          <h4>Node.js</h4>
+          <p>REST APIs and backend basics.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-react"></i>
+          <h4>React</h4>
+          <p>Component architecture.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <h2>My Hobbies</h2>
+
+      <div class="hobby-container">
+        <div class="hobby-card">
+          <h3>Reading</h3>
+          <p>Tech blogs and self development books.</p>
+        </div>
+        <div class="hobby-card">
+          <h3>Sports</h3>
+          <p>Playing football keeps me active.</p>
+        </div>
+        <div class="hobby-card">
+          <h3>Music</h3>
+          <p>I listen while coding.</p>
+        </div>
+        <div class="hobby-card">
+          <h3>Coding</h3>
+          <p>Building projects and learning.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="anime">
+      <h2>Top 10 Favorite Anime</h2>
+
+      <img
+        src="https://wallpapercave.com/wp/wp2751470.jpg"
+        alt="Nature Anime"
+        class="anime-image"
+      />
+
+      <ol>
+        <li>Attack on Titan</li>
+        <li>Naruto</li>
+        <li>Death Note</li>
+        <li>Jujutsu Kaisen</li>
+        <li>Demon Slayer</li>
+        <li>Fullmetal Alchemist</li>
+        <li>One Piece</li>
+        <li>Steins Gate</li>
+        <li>Tokyo Ghoul</li>
+        <li>Hunter x Hunter</li>
+      </ol>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="c">Contact Me</h2>
+
+      <div class="contact-container">
+        <form action="mailto:thsamin10@email.com" method="post" enctype="text/plain">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <p><strong>Email:</strong> thsamin10@email.com</p>
+          <p><strong>Location:</strong> Dhaka, Bangladesh</p>
+          <p>
+            Studying at
+           <a href="https://www.bracu.ac.bd/" target="_blank" class="bracu"
+              >BRAC University</a
+            >
+          </p>
+          <p>
+            Join communities on
+            <a href="https://discord.com" class="Discord" target="_blank">Discord</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p id="location"></p>
+      <p id="lastModified"></p>
+      <p>© 2026 Tasnimul Hasan</p>
+    </footer>
+
+    <script>
+      const toggle = document.getElementById("toggleMode");
+
+      toggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark");
+        toggle.textContent = document.body.classList.contains("dark")
+          ? "Light"
+          : "Dark";
+      });
+
+      document.getElementById("location").innerText =
+        "Page Location: " + window.location.href;
+      document.getElementById("lastModified").innerText =
+        "Last Modified: " + document.lastModified;
+    </script>
+  </body>
+</html>
